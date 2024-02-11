@@ -69,13 +69,13 @@ namespace csc232
         public:
             /**
             * @brief Command this Dog to speak.
-                * @return A translation of what this Dog says in response.
+            * @return A translation of what this Dog says in response.
             */
             virtual std::string speak() const = 0;
 
             /**
             * @brief Command this Dog to sit.
-                * @post  A message is inserted into the standard output stream.
+            * @post  A message is inserted into the standard output stream.
             */
             virtual void sit() const = 0;
 
